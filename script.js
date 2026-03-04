@@ -300,7 +300,7 @@ async function fetchTickerData(ticker, startDate) {
     const period2 = Math.floor(endDateObj.getTime() / 1000) + 86400; // Add 1 day to include end date
 
     const yfUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?period1=${period1}&period2=${period2}&interval=1d`;
-    const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(yfUrl)}`;
+    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(yfUrl)}`;
 
     try {
         const response = await fetch(proxyUrl);
