@@ -18,14 +18,14 @@ const DEFAULT_STATE = {
             name: 'DK Portfolio',
             startDate: '2025-10-07',
             color: '#FF9500',
-            assets: { "QQQM": 0.45, "SMH": 0.15, "SPYM": 0.10, "JEPQ": 0.10, "IAU": 0.10, "DBMF": 0.10 }
+            assets: { "SCHD": 0.398, "QQQM": 0.291, "SMH": 0.090, "PPA": 0.086, "IAU": 0.068, "DBMF": 0.067 }
         },
         {
             id: 'js_portfolio',
             name: 'JS Portfolio',
             startDate: '2025-03-01',
             color: '#5856D6',
-            assets: { "SCHD": 0.33, "SPYM": 0.67 }
+            assets: { "SCHD": 0.33, "QLD": 0.67 }
         }
     ]
 };
